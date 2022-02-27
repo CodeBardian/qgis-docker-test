@@ -17,7 +17,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        container: [' qgis/qgis:latest', 'qgis/qgis:release-3_22', 'qgis/qgis:release-3_20', 'qgis/qgis:release-3_18', 'qgis/qgis:release-3_16', 'qgis/qgis@sha256:fea5450e5128c40fc8c51dc3e29e37e82cbd4e6e536d4e85c973db523dfc477d', 'qgis/qgis@sha256:986bca0f293e4c4b11661c41dc4032a179bf1053ee6368fa0f1262ff81d94af7', 'qgis/qgis@sha256:5acf564c92e40bd869703d4eba1ce5848d2ba76d2effc6024d97ca211df0f963', 'qgis/qgis@sha256:ebfd3944a09df1b33075207959e1ad9f13ad0c75e35aa2468867bcfa5797b996', 'qgis/qgis@sha256:f1d9438be765ef54f9e92883134a2632c2351254765376a47f1d071f37319c8a']
+        container: [' qgis/qgis:latest', 'qgis/qgis:final-3_24_0', 'qgis/qgis:release-3_22', 'qgis/qgis:release-3_20', 'qgis/qgis:release-3_18', 'qgis/qgis:release-3_16', 'qgis/qgis@sha256:fea5450e5128c40fc8c51dc3e29e37e82cbd4e6e536d4e85c973db523dfc477d', 'qgis/qgis@sha256:986bca0f293e4c4b11661c41dc4032a179bf1053ee6368fa0f1262ff81d94af7', 'qgis/qgis@sha256:5acf564c92e40bd869703d4eba1ce5848d2ba76d2effc6024d97ca211df0f963', 'qgis/qgis@sha256:ebfd3944a09df1b33075207959e1ad9f13ad0c75e35aa2468867bcfa5797b996', 'qgis/qgis@sha256:f1d9438be765ef54f9e92883134a2632c2351254765376a47f1d071f37319c8a']
 
     container: ${{ matrix.container }}
     
