@@ -17,7 +17,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        container: [' qgis/qgis:latest', 'qgis/qgis:release-3_22', 'qgis/qgis:release-3_24', 'qgis/qgis:release-3_26', 'qgis/qgis:release-3_28', 'qgis/qgis@sha256:a05df35259317e3457d4cdc73f0aabf0623f1e7a8257c56bff10b041ded3dce3', 'final-3_22_12', 'final-3_22_11']
+        container: [' qgis/qgis:latest', 'qgis/qgis:release-3_22', 'qgis/qgis:release-3_24', 'qgis/qgis:release-3_26', 'qgis/qgis:release-3_28', 'qgis/qgis@sha256:a05df35259317e3457d4cdc73f0aabf0623f1e7a8257c56bff10b041ded3dce3', 'qgis/qgis:final-3_22_12', 'qgis/qgis:final-3_22_11']
 
     container: ${{ matrix.container }}
     
